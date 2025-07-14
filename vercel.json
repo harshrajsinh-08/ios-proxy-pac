@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/proxy.pac",
+      "dest": "/proxy.pac",
+      "headers": {
+        "Content-Type": "application/x-ns-proxy-autoconfig"
+      }
+    }
+  ]
+}
