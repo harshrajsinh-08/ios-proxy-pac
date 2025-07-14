@@ -1,3 +1,6 @@
 function FindProxyForURL(url, host) {
-    return "PROXY 172.16.1.1:56349";
+    if (timeRange(0, 7)) {
+        return "PROXY 172.16.1.1:56349";
+    }
+    return "DIRECT";
 }
